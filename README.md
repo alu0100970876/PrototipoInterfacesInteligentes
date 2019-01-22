@@ -17,8 +17,8 @@ Las mecánicas que se eligieron para ese juego son sencillas, ya que se escogier
 ## Hitos logrados (dificultades que se logró resolver)
 
 ## Aspectos a destacar (complejidades que se añadieron)
-* Se añadieron unas IAs al entorno del juego utilizando la plataforma para IA de Unity, con su librería y los assets de Mesh Agent \[4], con esto se consiguió que los agentes naveganar por el entorno de manera aleatoria sin chocarse con nada y sin tener que hacer a mano unos scripts de colisiones o similares que habrían añadido mucha complejidad.
-* Una vez hecha toda la estructura de la casa, compuesta por más de 100 muros, nos dimos cuenta que aplicarle las texturas a todos los muros sería una tarea muy laboriosa, así que unimos todos los muros en un GameObject vacío llamado "conjuntoMuros" e hicimos un script que recorriera los hijos de ese objeto y fuera aplicando las texturas a todos los muros. Por esto, las texturas se aplican siempre en el primer instante de ejecución.
+* Se añadieron unas IAs al entorno del juego utilizando la plataforma para IA de Unity, con su librería y los assets de Mesh Agent \[4], con esto se consiguió que los agentes navegaran por el entorno de manera aleatoria sin chocarse con nada y sin tener que hacer a mano unos scripts de colisiones o similares que habrían añadido mucha complejidad.
+* Una vez hecha toda la estructura de la mazmorra, compuesta por más de 100 muros, nos dimos cuenta que aplicarle las texturas a todos los muros sería una tarea muy laboriosa, así que unimos todos los muros en un GameObject vacío llamado "conjuntoMuros" e hicimos un script que recorriera los hijos de ese objeto y fuera aplicando las texturas a todos los muros. Por esto, las texturas se aplican siempre en el primer instante de ejecución.
 
 ## Aspectos relacionados con las recomendaciones para la interacción con VR que se hayan contemplado.
 * Lo primero que hicimos para mejorar la interacción con la VR fué quitar el "cliping" con las paredes del juego. Eso que es molesto en un juego normal, en VR se puede volver dañino ya que al dar saltos entre un muro y la posición de detrás se contribuye a marear y desorientar al usuario \[2].
@@ -31,7 +31,7 @@ Las mecánicas que se eligieron para ese juego son sencillas, ya que se escogier
 Si bien hemos hechos varias demos en clase asi como por nuestra cuenta para ver si podíamos integrarlo en el juego , al final decidimos desechar la idea ya que , no solo añade una capa de complejidad extra al juego sino que además, no aporta nada al gameplay. También cabe mencionar que los servicios de chatbots que se nos explicaron no sirven para android (ya que el sistema de reconocimiento de voz es solo nativo de windows) y el Google Dialogflow, aunque si funciona en android tambien, crea muchos problemas de conectividad  y ademas detiene la ejecución del juego cada vez que hace una petición al servidor a menos que se le dedique un hilo entero del juego para el solo, deoptimizando recursos y haciendo la APK final mas pesada.
 
 ## Uso de sensores.
-El principal sensor que usamos en el juego a parte de los que ya vienen integrados de por si en los prefabs de la cámara de VR fué el giroscópio. Con él conseguimos establecer el ángulo de los cascos con respecto al suelo del nivel para realizar los movimietos del personaje, lo cual es la  mecánica mas importante del juego.
+El principal sensor que usamos en el juego a parte de los que ya vienen integrados de por si en los prefabs de la cámara de VR fue el giroscópio. Con él conseguimos establecer el ángulo de los cascos con respecto al suelo del nivel para realizar los movimientos del personaje, lo cual es la  mecánica mas importante del juego.
 
 ## Distribución de las tareas.
 La idea del juego y mecanicas de este las decidimos entre todos durante no unos pocos días de debate.
