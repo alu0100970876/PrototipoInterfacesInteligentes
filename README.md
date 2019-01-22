@@ -5,6 +5,8 @@ Daniel Rodríguez Suárez,
 Miguel Jiménez Gomis.
 
 ## Introducción: presentación del juego
+* Es un juego de exploración, en VR, en el que el jugador no porta armas de ningún tipo y en el que el objetivo es moverse por una mazmorra buscando una serie de llaves. Si las encuentra todas, gana.
+Tiene cierto ambiente tétrico para dar esa sensación de survival horror en primera persona.
 
 ## Mecánicas
 Las mecánicas que se eligieron para ese juego son sencillas, ya que se escogieron para intentar minimizar la disonancia ludonarrativa \[1] en el gameplay del mismo.
