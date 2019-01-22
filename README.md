@@ -15,13 +15,20 @@ Las mecánicas que se eligieron para ese juego son sencillas, ya que se escogier
 ## Assets utilizados
 
 ## Hitos logrados (dificultades que se logró resolver)
-* 1.Creación del mapa
+* 1.Creación del mapa  
+
       1.1.Plano
+      
           El plano se realizó a mano para posteriormente sacarle una foto y pasarlo al Unity. Se escaló convenientemente y se levantaron todos los muros a base de cubos básicos.
+          
       1.2.Texturas
+      
           Se realizó un script para aplicar la textura de ladrillos a todos los cubos.
+          
       1.3.Decoración
+      
           A medida que se necesitaban ciertos objetos o elementos se iban buscando en el Asset Store.
+          
 
 ## Aspectos a destacar (complejidades que se añadieron)
 * Se añadieron unas IAs al entorno del juego utilizando la plataforma para IA de Unity, con su librería y los assets de Mesh Agent \[4], con esto se consiguió que los agentes navegaran por el entorno de manera aleatoria sin chocarse con nada y sin tener que hacer a mano unos scripts de colisiones o similares que habrían añadido mucha complejidad.
