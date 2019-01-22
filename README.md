@@ -16,18 +16,13 @@ Las mecánicas que se eligieron para ese juego son sencillas, ya que se escogier
 
 ## Hitos logrados (dificultades que se logró resolver)
 * 1.Creación del mapa  
-
       1.1.Plano
-      
-          El plano se realizó a mano para posteriormente sacarle una foto y pasarlo al Unity. Se escaló convenientemente y se levantaron todos los muros a base de cubos básicos.
-          
+          El plano se realizó a mano para posteriormente sacarle una foto y pasarlo al Unity. Se escaló convenientemente y se levantaron todos los muros a base de cubos básicos.     
       1.2.Texturas
-      
-          Se realizó un script para aplicar la textura de ladrillos a todos los cubos.
-          
+          Se realizó un script para aplicar la textura de ladrillos a todos los cubos.   
       1.3.Decoración
-      
           A medida que se necesitaban ciertos objetos o elementos se iban buscando en el Asset Store.
+          
  * 2. Utilización del VR  
  Utilización del GVR SDK for Unity propiedad de Google para poder integrar el VR en android, para ello, se ha integrado en el proyecto:  
  2.1: GvrEditorEmulator: Permite emular las GoogleCardBoard en Unity para el desarrollo.  
