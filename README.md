@@ -15,18 +15,14 @@ Las mecánicas que se eligieron para ese juego son sencillas, ya que se escogier
 ## Assets utilizados
 
 ## Hitos logrados (dificultades que se logró resolver)
-* 1.Creación del mapa
-      1.1.Plano
-          El plano se realizó a mano para posteriormente sacarle una foto y pasarlo al Unity. Se escaló convenientemente y se levantaron todos los muros a base de cubos básicos.
-      1.2.Texturas
-          Se realizó un script para aplicar la textura de ladrillos a todos los cubos.
-      1.3.Decoración
-          A medida que se necesitaban ciertos objetos o elementos se iban buscando en el Asset Store.
-
 
 ## Aspectos a destacar (complejidades que se añadieron)
 * Se añadieron unas IAs al entorno del juego utilizando la plataforma para IA de Unity, con su librería y los assets de Mesh Agent \[4], con esto se consiguió que los agentes navegaran por el entorno de manera aleatoria sin chocarse con nada y sin tener que hacer a mano unos scripts de colisiones o similares que habrían añadido mucha complejidad.
 * Una vez hecha toda la estructura de la mazmorra, compuesta por más de 100 muros, nos dimos cuenta que aplicarle las texturas a todos los muros sería una tarea muy laboriosa, así que unimos todos los muros en un GameObject vacío llamado "conjuntoMuros" e hicimos un script que recorriera los hijos de ese objeto y fuera aplicando las texturas a todos los muros. Por esto, las texturas se aplican siempre en el primer instante de ejecución.
+
+## Dificultades en el desarrollo.
+* El collab de Unity solo puede usarse gratuitamente hasta que el proyecto ocupe un máximo 1GB, cantidad que rebasamos rápidamente debido a la gran cantidad de assets y el tamaño del mapa del mismo. Por tanto nos vimos obligados a buscar otra plataforma que funcionara como un sistema de control versiones, en nuestro caso usamos el google Drive, el problema es que cada vez que subíamos el proyecto había que subirlo entero y lo mismo en la descarga, (a diferencia de un correcto sistema de control de versiones en el que solo se publican los cambios). Esto nos llevaba al problema de que 2 de nosotros (Miguel,Daniel) tenemos un internet bastante mediocre lo que entorpece enormente el desarrollo y la comunicación inter-grupo.
+* Otro problema menor fue que, a la hora de probar la aplicación de RV en el móvil , Daniel no podía debido a que su dispositivo no contaba con un giroscopio.
 
 ## Aspectos relacionados con las recomendaciones para la interacción con VR que se hayan contemplado.
 * Lo primero que hicimos para mejorar la interacción con la VR fué quitar el "cliping" con las paredes del juego. Eso que es molesto en un juego normal, en VR se puede volver dañino ya que al dar saltos entre un muro y la posición de detrás se contribuye a marear y desorientar al usuario \[2].
