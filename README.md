@@ -1,8 +1,8 @@
 # PrototipoInterfacesInteligentes
 Trabajo realizado por: 
-Javier Alberto Martín
-Daniel Rodríguez Suárez
-Miguel Jiménez Gomis
+Javier Alberto Martín,
+Daniel Rodríguez Suárez,
+Miguel Jiménez Gomis.
 
 ## Introducción: presentación del juego
 
