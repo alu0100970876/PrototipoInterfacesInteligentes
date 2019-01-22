@@ -18,6 +18,7 @@ Las mecánicas que se eligieron para ese juego son sencillas, ya que se escogier
 
 ## Aspectos a destacar (complejidades que se añadieron)
 * Se añadieron unas IAs al entorno del juego utilizando la plataforma para IA de Unity, con su librería y los assets de Mesh Agent \[4], con esto se consiguió que los agentes naveganar por el entorno de manera aleatoria sin chocarse con nada y sin tener que hacer a mano unos scripts de colisiones o similares que habrían añadido mucha complejidad.
+* Una vez hecha toda la estructura de la casa, compuesta por más de 100 muros, nos dimos cuenta que aplicarle las texturas a todos los muros sería una tarea muy laboriosa, así que unimos todos los muros en un GameObject vacío llamado "conjuntoMuros" e hicimos un script que recorriera los hijos de ese objeto y fuera aplicando las texturas a todos los muros. Por esto, las texturas se aplican siempre en el primer instante de ejecución.
 
 ## Aspectos relacionados con las recomendaciones para la interacción con VR que se hayan contemplado.
 * Lo primero que hicimos para mejorar la interacción con la VR fué quitar el "cliping" con las paredes del juego. Eso que es molesto en un juego normal, en VR se puede volver dañino ya que al dar saltos entre un muro y la posición de detrás se contribuye a marear y desorientar al usuario \[2].
