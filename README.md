@@ -18,7 +18,20 @@ Las mecánicas que se eligieron para ese juego son sencillas, ya que se escogier
 * Para finalizar el juego, el jugador deberá encontrar las diferentes llaves que están escondidas a lo largo del mapa del juego. Una vez el jugador se encuentra con una llave tiene que mirarla para recogerla y tenerla en su inventario. Como esta mecánica no se explica de manera explicita en ningún punto del juego se ha puesto una llave delante del usuario nada mas empezar la partida, para que le sirva de tutorial y sea obvio lo que tiene que hacer para ganar.
 
 ## Assets utilizados
-
+* Decrepit Dungeon LITE: El asset más usado. Contiene muros y puertas de con apariencia de mazmorra. También varios objetos decorativos como antorchas, mesas o cadenas.
+* Dark Fantasy Kit [FREE]: Contiene elementos de dormitorio.
+* Morgue Room PBR: Elementos de sala de autopsias.
+* Free Rug Pack: Tres alfombras diferentes.
+* LowPoly Dungeon Module: Más objetos decorativos como barriles.
+* Classic Picture Frame: Cuadro con paisaje.
+* Medieval Gold: Lingotes y monedas de oro para la sala del tesoro.
+* Old Military Bed: Camas de literas.
+* Skull Platform: Plataforma en forma de calavera.
+* Rusty Pack Models: Elementos de aseo con apariencia descuidada.
+* Egypcian Tomb: Cat Statue: Estatua de gato de oro para la sala del tesoro.
+* Classic Treasure Box: Cofre del tesoro.
+* Golden Dragon Statue: Estatua de dragón para la sala del tesoro.
+* Horror Axe: Hacha con sangre.
 ## Hitos logrados (dificultades que se logró resolver)
 * 1.Creación del mapa  
       1.1.Plano
