@@ -3,6 +3,9 @@ Trabajo realizado por:
 Javier Alberto Martín,
 Daniel Rodríguez Suárez,
 Miguel Jiménez Gomis.
+### Enlaces de interés:
+Descarga escenas Unity: https://drive.google.com/file/d/1W9tO_tuCE3vId9gapS3ZYOjILaM4T0S9/view?usp=sharing
+Descarga APK: https://drive.google.com/file/d/1NpVvY2QVraOsWvM68CneO3xnSxaEmyK3/view?usp=sharing
 
 ## Introducción: presentación del juego
 * Es un juego de exploración, en VR, en el que el jugador no porta armas de ningún tipo y en el que el objetivo es moverse por una mazmorra buscando una serie de llaves. Si las encuentra todas, gana.
