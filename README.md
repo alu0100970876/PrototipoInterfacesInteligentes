@@ -74,3 +74,8 @@ Si bien esta fue la distribución inicial, todos colaboramos en la depuración d
 * \[2] https://developer.oculus.com/design/latest/concepts/bp-vision/
 * \[3] https://developer.oculus.com/design/latest/concepts/bp-locomotion/
 * \[4] https://unity3d.com/es/learn/tutorials/topics/navigation/navmesh-agent
+
+## Demo
+Debido a la capacidad de la GPU del movil y el tener que renderizar la imagen por duplicado, al capturar el juego se pierden muchos fps.
+
+![demo](demo.gif)
