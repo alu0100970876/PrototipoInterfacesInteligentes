@@ -33,23 +33,23 @@ Las mecánicas que se eligieron para ese juego son sencillas, ya que se escogier
 * Golden Dragon Statue: Estatua de dragón para la sala del tesoro.
 * Horror Axe: Hacha con sangre.
 ## Hitos logrados (dificultades que se logró resolver)
-* 1.Creación del mapa  
-      1.1.Plano
+1. Creación del mapa  
+      ⋅⋅1. Plano.
           El plano se realizó a mano para posteriormente sacarle una foto y pasarlo al Unity. Se escaló convenientemente y se levantaron todos los muros a base de cubos básicos.     
-      1.2.Texturas
+      ⋅⋅2. Texturas.
           Se realizó un script para aplicar la textura de ladrillos a todos los cubos.   
-      1.3.Decoración
+      ⋅⋅3. Decoración.
           A medida que se necesitaban ciertos objetos o elementos se iban buscando en el Asset Store.
           
- * 2. Utilización del VR  
+2. Utilización del VR  
  Utilización del GVR SDK for Unity propiedad de Google para poder integrar el VR en android, para ello, se ha integrado en el proyecto:  
- 2.1: GvrEditorEmulator: Permite emular las GoogleCardBoard en Unity para el desarrollo.  
- 2.2: GvrEventSystem: Asset principal que es el que implementa el sistema de eventos en VR.  
- 2.3: GvrPointerPhysicsRayCaster: Script ligado a la camera del player que va trazando ray y calculando las físicas innerentes al VR.  
- 2.4: GvrReticlePointer: Retícula que permite interactuar con los objetos, visible por el jugador.  
- 2.5: EventTrigger: En los objetos sobre los que actúa la retícula, evento que se activa, en este caso los objetos son las llaves.
+ ⋅⋅1. GvrEditorEmulator: Permite emular las GoogleCardBoard en Unity para el desarrollo.  
+ ⋅⋅2. GvrEventSystem: Asset principal que es el que implementa el sistema de eventos en VR.  
+ ⋅⋅3. GvrPointerPhysicsRayCaster: Script ligado a la camera del player que va trazando ray y calculando las físicas innerentes al VR.  
+ ⋅⋅4. GvrReticlePointer: Retícula que permite interactuar con los objetos, visible por el jugador.  
+ ⋅⋅5. EventTrigger: En los objetos sobre los que actúa la retícula, evento que se activa, en este caso los objetos son las llaves.
  
- * 3. Desarrollo de la UI
+ 3. Desarrollo de la UI
  Por último, no podía falta en un juego, una interfaz de usuario, en este caso, aunque bastante simple cumple con creces su objetivo,
  muestra el número de llaves arriba a la izquierda para que el jugador nada más empezar sepa cual es su objetivo.  
  
